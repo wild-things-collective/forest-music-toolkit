@@ -1,34 +1,28 @@
-# Spacebook
+# Forest Music Toolkit
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/68791233-b2d6-4a86-8c42-e654e112a157/deploy-status)](https://app.netlify.com/sites/spacebook-app/deploys)
+An online resource for creating learning experiences with music in a safe and inclusive woodland setting.
 
-Create your own spacebook and customize it to your needs. Spacebooks are speedy to set up, free, and 100% open source. Spacebooks are modern notebooks you can use to create documentation, sketch out new ideas, build a simple website, or whatever suits your fancy. 
+## Built with Eleventy and Spacebook, hosted on Netlify.
 
----
+**Spacebook** is a starter project for the static site generator **Eleventy**. The sourcecode for the site is hosted *here* on **Github** and the website is deployed to [**Netlify**](https://www.netlify.com/). Every time you commit a change to the `main` branch here on github a new version of the site will be automatically deployed on **Netlify**. If you need to login to netlify you can use your **Github** credentials.
 
-<p align="center">
-<strong><big>Demo and documentation:</big></strong><br /> 
-</p>
+### Updating Content
 
-<p align="center">
-<strong>https://spacebook.app</strong> <br />
-</>
+For simple changes like adding more images, altering wording or adding new pages consult the Spacebook [documentation](https://spacebook.app). This should be possible by editing the files directly through github.
 
-<p align="center">
-🙋 💥 👩🏽‍🚀 🚀 👨‍🚀 🛰️
-</p>
+### Structural Changes
+
+If you want to add more features or get a better idea of how the site is generated consult the Eleventy [documentation](https://www.11ty.dev/docs/). It is likely you will want to install the project on your own computer to do this work.
 
 ---
 
-## Contributing
-
-If you want to contribute or make fixes to spacebook, it is best to fork this repository directly and submit pull requests against it. If you spot a typo on the demo/documentation site, you can also open a fork directly from the edit button on the top of each page.
-
-## Install spacebook
+### Install Locally
 
 If you want to quickly install for local testing follow the instructions below:
 
-### Requirements
+#### Requirements
+
+You will need some familiarity with the command line (but many of the commands needed are provided below) and have [git](https://github.com/git-guides/install-git) installed. You will also need a text editor, [vscode](https://code.visualstudio.com/) is a popular choice.
 
 You must be running **Node version 12 or higher** due to the Tailwind 2.0 release. I recommend using NVM to easily manage your Node versions if you need to switch back and forth between older versions.
 
@@ -41,13 +35,13 @@ You must be running **Node version 12 or higher** due to the Tailwind 2.0 releas
 node --version
 ```
 
-### Step one
+#### Step one
 
 ```
-git clone https://github.com/broeker/spacebook
+git clone https://github.com/wild-things-collective/forest-music-toolkit.git
 ```
 
-### Step two
+#### Step two
 
 Install the site and run an initial build command:
 
@@ -61,7 +55,7 @@ npm run build (only necessary the first time!)
 
 _If you get errors here, double check your node version!_
 
-### Step three
+#### Step three
 
 Now spin up your local server to see your site!
 
@@ -71,4 +65,4 @@ npm run start
 
 This command will start a local server and you'll be able to work on your site with hot reloads and some nice Browsersync features. 💥
 
---- 
+---
